@@ -4,7 +4,7 @@ Code to manage top-k preference judgments following the process defined in Charl
 
 Plus, code to to simulation preference judging from a set of existing judgments as used in Chengxi Luo, Charles L. A. Clarke and Mark D. Smucker. *Evaluation measures based on preference graphs*. ACM SIGIR 2021.
 
-Here's an example of how to use the prefj.py program to manage crowdsourcing of preference judgments:
+Here's an example of how to use the ```prefj.py``` script to manage crowdsourcing of preference judgments:
 
 1) We start with a set of graded judgments. In this example, we'll use the qrels from TREC CAsT 2019.
 ```
