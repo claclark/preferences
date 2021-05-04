@@ -7,7 +7,15 @@ Plus, code to to simulation preference judging from a set of existing judgments 
 
 Here's an example of how to use the prefj.py program to manage crowdsourcing of preference judgments:
 
-1) We start with a set of graded judgments. In this example, we'll use the qrels from TREC CAsT 2019 (```CAST2019.qrels.txt```).
+1) We start with a set of graded judgments. In this example, we'll use the qrels from TREC CAsT 2019.
+```
+    $ head -5 CAST2019.qrels.txt 
+    31_1 Q0 CAR_116d829c4c800c2fc70f11692fec5e8c7e975250 0
+    31_1 Q0 CAR_1463f964653c5c9f614a0a88d26b175e4a8120f1 1
+    31_1 Q0 CAR_172e16e89ea3d5546e53384a27c3be299bcfe968 2
+    31_1 Q0 CAR_1c93ef499a0c2856c4a857b0cb4720c380dda476 0
+    31_1 Q0 CAR_2174ad0aa50712ff24035c23f59a3c2b43267650 3
+```
 
 2) Initialize the judgment process. After initialization, the file "state" contains the state of the judging process.
 ```
