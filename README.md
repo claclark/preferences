@@ -1,5 +1,4 @@
-# preferences
-Top-k preference judgments
+# Top-k preference judgments
 
 Code to manage top-k preference judgments following the process defined in Charles L. A. Clarke, Alexandra Vtyurina, and Mark D. Smucker. *Assessing top-k preferences*. ACM Transactions on Information Systems. 2021. See: https://arxiv.org/abs/2007.11682
 
