@@ -2,7 +2,11 @@
 
 Code to manage top-k preference judgments following the process defined in Charles L. A. Clarke, Alexandra Vtyurina, and Mark D. Smucker. *Assessing top-k preferences*. ACM Transactions on Information Systems. 2021. See: https://arxiv.org/abs/2007.11682
 
-Plus, code to to simulation preference judging from a set of existing judgments as used in Chengxi Luo, Charles L. A. Clarke and Mark D. Smucker. *Evaluation measures based on preference graphs*. ACM SIGIR 2021.
+Plus, code to to simulation preference judging from a set of existing judgments as used in Chengxi Luo, Charles L. A. Clarke and Mark D. Smucker. *Evaluation measures based on preference graphs*. ACM SIGIR 2021. See: https://dl.acm.org/doi/abs/10.1145/3404835.3462947
+
+This code was also used to manage both human preference judgments and simulated preference judgments in Xinyi Yan, Chengxi Luo, Charles L. A. Clarke, Nick Craswell, and Ellen M. Voohees, and Pablo Castells. *Human Preferences as Dueling Bandits*. ACM SIGIR 2022.
+
+Main repo for this project: https://github.com/claclark/Compatibility
 
 Here's an example of how to use the ```prefj.py``` script to manage crowdsourcing of preference judgments:
 
